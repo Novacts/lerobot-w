@@ -1,0 +1,10 @@
+
+# 自动生成文件
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型权重保留在本地
+/daima/graspnet-baseline/VLM_related/grounding-dino-base/model.safetensors
+/daima/graspnet-baseline/VLM_related/grounding-dino-base/pytorch_model.bin

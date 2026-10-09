@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# 注意:dist 名必须以下划线开头为 "lerobot_robot_",lerobot 的插件发现机制
+# (register_third_party_plugins)按 importlib.metadata 的 Name 前缀匹配。
+name = "lerobot_robot_episode"
+version = "0.1.0"
+description = "Episode1 六轴机械臂的 lerobot 机器人插件(拖动示教 + 模仿学习)"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[tool.setuptools.packages.find]
+include = ["lerobot_robot_episode*"]
+
+[tool.setuptools.package-data]
+"lerobot_robot_episode" = ["py.typed"]
