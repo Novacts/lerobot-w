@@ -1,0 +1,13 @@
+stream: color
+width: 640
+height: 480
+fx: 606.726
+fy: 606.798
+cx: 319.025
+cy: 250.742
+distortion_model: inverse_brown_conrady
+distortion_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+camera_matrix:
+  - [606.726, 0.0, 319.025]
+  - [0.0, 606.798, 250.742]
+  - [0.0, 0.0, 1.0]
